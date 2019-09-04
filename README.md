@@ -3,7 +3,7 @@
 Processingで画像を生成し、Pythonで画像を繋げて動画にする
 
 # ソフトウェア
-Python 3.7.3
+Python 3.7.3  
 Processing 3.5.3
 
 # ハードウェア
