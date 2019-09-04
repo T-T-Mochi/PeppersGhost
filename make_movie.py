@@ -9,6 +9,8 @@ def main():
 
     dir_path = "frames/"
 
+    make_movie(make_file_name,dir_path,size,fps)
+
 def make_movie(make_file_name,dir_path,size,fps):
     '''
     連続した画像から動画を作成する
@@ -19,7 +21,6 @@ def make_movie(make_file_name,dir_path,size,fps):
     for i in range(1, 3601):
         img = cv2.imread(dir_path+str(i)+".png")
         img2 = cv2.resize(img, dsize=(size,size))
-        print(i)
         video.write(img2)
 
     video.release()
