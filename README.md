@@ -10,5 +10,5 @@ Processing 3.5.3
 macOS Sierra ver 10.12.6
 
 # 参考
-Pythonで連番画像から動画を作成する
-https://qiita.com/itoru257/items/228a91404fa77c780fd4
+Pythonで連番画像から動画を作成する  
+URL:https://qiita.com/itoru257/items/228a91404fa77c780fd4
